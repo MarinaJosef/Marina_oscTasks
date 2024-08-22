@@ -18,7 +18,7 @@ tar -xvf logs_backup.tar -C logs
 find ~ -name "*.md"
 find ~/project_files -name "*.log"
 find ~/project_files -name "file1.pdf"
-find ~/project_files -name "*.pdf"
+find ~/project_files -iname "*.pdf"
 find ~/project_files/logs -type f
 ln -s ~/project_files/data/data.csv ~/project_files/link_data.csv
 nano ~/project_files/link_data.csv
